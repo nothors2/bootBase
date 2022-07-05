@@ -1,0 +1,48 @@
+#spring:
+#  security:
+#    user:
+#      name: test
+#      password: 1111
+
+#logging:
+#  level:
+#    root: info
+#    audit: off
+#    jdbc: off
+#    com.webAdmin: debug
+#    jdbc.sqltiming: info
+#    org:
+#      springframework: error
+#      apache:
+#        tomcat: error
+#        ibatis: debug
+#    bootAdmin: debug
+#    org.springframework.jdbc.core.JdbcTemplate: debug
+#
+#mybatis:
+#  type-aliases-package: com.webAdmin.dao
+##  config-location: classpasth:config/mybatis-config.xml
+#
+server:
+  port: 8000
+  servlet:
+    session:
+      timeout: 60m #test:30s
+#
+#
+#spring:
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#  datasource:
+#    url: jdbc:log4jdbc:oracle:thin:@upcns.iptime.org:25003:orcl
+#    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+#    username: DEMOADMIN
+#    password: DEMOADMIN
+#  thymeleaf:
+#    prefix: classpath:/public/thymeleaf/
+#  servlet:
+#    multipart:
+#      maxFileSize: 90MB
+#      maxRequestSize: 99MB
+
