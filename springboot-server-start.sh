@@ -6,6 +6,7 @@ git clone https://github.com/nothors2/bootBase
 
 # move
 cd bootBase
+git pull https://github.com/nothors2/bootBase master
 
 # build
 mvn package
