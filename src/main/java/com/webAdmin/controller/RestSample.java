@@ -38,7 +38,7 @@ public class RestSample {
         int sec = (int) (500 * dValue);
         logger.error("RestSample Log sec : "+sec);
         Map<String,Object> map = new HashMap<>();
-        map.put("home","testtesttesttesttest docker v1 1");
+        map.put("home",". docker v22222");
         map.put("dValue",""+sec);
         try {
             Thread.sleep(sec);
