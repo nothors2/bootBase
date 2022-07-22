@@ -5,7 +5,7 @@ echo "start spring boot server"
 git clone https://github.com/nothors2/bootBase
 
 # move
-cd sbp-shopping-mall
+cd bootBase
 
 # build
 mvn package
